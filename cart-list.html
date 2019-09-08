@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<title>Billions Capital</title>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link rel="shortcut icon" href="./img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="./fonts/MaterialDesign/css/materialdesignicons.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/scrollbar/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/scrollbar/jquery.scrollbar.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/rateit/rateit.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="super-wrapper">
+		<div class="wrapper">
+			<header id="mainnav">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12">
+							<nav class="navbar navbar-expand-lg">
+								<a class="navbar-brand embed-responsive embed-responsive-logo" href="/">
+									<img class="embed-responsive-item" src="./img/logo.png">
+								</a>
+								<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+									<ul class="navbar-nav main-nav">
+										<li class="nav-item">
+											<a class="nav-link menu-link" href="#">Главная</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link menu-link" href="#">Магазин</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link menu-link" href="#">Контакты</a>
+										</li>
+									</ul>
+									<ul class="navbar-nav auth-nav">
+										<li class="nav-item">
+											<a class="nav-link nav-btn" href="#">Регистрация</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link nav-btn" href="#">Войти</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+			
+			<section class="intro align-items-center d-flex" style="background-image: url(./img/cart_bg.jpg);">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12">
+							<div class="row justify-content-center justify-content-lg-between text-center text-lg-left">
+								<div class="col-12 col-lg-8">
+									<h1 class="page-title text-lg-left mb20">Магазин</h1>
+									<a href="" class="text-light mb30"><span class="mdi mdi-heart mr-2 text-danger"></span>Мои желания: <span class="px-2">7</span></a>
+								</div>
+								<div class="col-auto mb-4">
+									<a class="btn btn-lg btn-warning btn-round btn-gradient btn-shadow word-wrap" href="">
+										<span class="mdi mdi-18px mdi-cart"></span></i> корзина: <span class="text-black ml10">0 шт. / $ 0.00</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="cart-list">
+				<div class="container-fluid">
+					<div class="row justify-content-center mb20">
+						<div class="col-12 mb20">
+							<ul class="categories-list">
+								<li>
+									<a class="categories-link" href="">
+										<div class="categories-img">
+											<img src="./img/categories-a.png" alt="categories">
+										</div>
+										<span class="categories-name">Все товары</span>
+									</a>
+								</li>
+								<li>
+									<a class="categories-link" href="">
+										<div class="categories-img">
+											<img src="./img/categories-b.png" alt="categories">
+										</div>
+										<span class="categories-name">Одежда</span>
+									</a>
+								</li>
+								<li>
+									<a class="categories-link" href="">
+										<div class="categories-img">
+											<img src="./img/categories-c.png" alt="categories">
+										</div>
+										<span class="categories-name">Сумки/чехлы</span>
+									</a>
+								</li>
+								<li>
+									<a class="categories-link" href="">
+										<div class="categories-img">
+											<img src="./img/categories-d.png" alt="categories">
+										</div>
+										<span class="categories-name">Украшения</span>
+									</a>
+								</li>
+								<li>
+									<a class="categories-link" href="">
+										<div class="categories-img">
+											<img src="./img/categories-e.png" alt="categories">
+										</div>
+										<span class="categories-name">аксессуары</span>
+									</a>
+								</li>
+								<li>
+									<a class="categories-link" href="">
+										<div class="categories-img">
+											<img src="./img/categories-f.png" alt="categories">
+										</div>
+										<span class="categories-name">сувениры</span>
+									</a>
+								</li>
+								<li>
+									<a class="categories-link" href="">
+										<div class="categories-img">
+											<img src="./img/categories-g.png" alt="categories">
+										</div>
+										<span class="categories-name">Канцелярия</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="input-group input-group-serch">
+	                <input type="hidden" name="search_param" value="all" id="search_param">         
+	                <input type="text" class="form-control" name="x" placeholder="Поиск по товарам">
+	                <span class="input-group-btn">
+	                    <button class="btn btn-default" type="button"><span class="mdi mdi-magnify"></span></button>
+	                </span>
+	            </div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="row">
+								<div class="col-12 col-sm-auto flex-grow-1 mb20">
+									<select class="js-select" name="" id="">
+										<option value="">Показывать 8</option>
+										<option value="">Показывать 12</option>
+										<option value="">Показывать 16</option>
+									</select>
+								</div>
+								<div class="col-12 col-sm-auto flex-grow-1 mb20">
+									<select class="js-select" name="" id="">
+										<option value="">По рейтингу</option>
+										<option value="">По рейтингу</option>
+										<option value="">По рейтингу</option>
+									</select>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="row mb20">
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="cart-el">
+								<div class="cart-badge cart-badge-new">new</div>
+								<a href="" class="cart-img embed-responsive">
+									<img class="embed-responsive-item" src="./img/cart-a.png" alt="product">
+								</a>
+								<div class="cart-name text-center">ФУТБОЛКА С ПРИНТОМ custom</div>
+								<div class="cart-price">
+									<div class="cart-pay">$ 19.00</div>
+									<div class="cart-rating">
+										<ul class="rating">
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-half"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="car-by-box">
+									<div class="cart-by-btn">
+										<a class="btn btn-round btn-small btn-outline" href="">В карзину</a>
+									</div>
+									<div class="cart-by-like">
+										<a class="js-like" href=""><span class="mdi mdi-heart-outline"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="cart-el">
+								<div class="cart-badge cart-badge-sale">sale</div>
+								<a href="" class="cart-img embed-responsive">
+									<img class="embed-responsive-item" src="./img/cart-b.png" alt="product">
+								</a>
+								<div class="cart-name text-center">ФУТБОЛКА С ПРИНТОМ Elliphant</div>
+								<div class="cart-price">
+									<div class="cart-pay cart-pay-sale">$ 15.00 <span class="cart-pay-old"> $ 19.00</span></div>
+									<div class="cart-rating">
+										<ul class="rating">
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-half"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="car-by-box">
+									<div class="cart-by-btn">
+										<a class="btn btn-round btn-small btn-outline" href="">В карзину</a>
+									</div>
+									<div class="cart-by-like">
+										<a class="js-like" href=""><span class="mdi mdi-heart-outline"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="cart-el">
+								<div class="cart-badge">new</div>
+								<a href="" class="cart-img embed-responsive">
+									<img class="embed-responsive-item" src="./img/cart-c.png" alt="product">
+								</a>
+								<div class="cart-name text-center">ФУТБОЛКА С ПРИНТОМ Star Wars</div>
+								<div class="cart-price">
+									<div class="cart-pay">$ 19.00</div>
+									<div class="cart-rating">
+										<ul class="rating">
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-half"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="car-by-box">
+									<div class="cart-by-btn">
+										<a class="btn btn-round btn-small btn-outline" href="">В карзину</a>
+									</div>
+									<div class="cart-by-like">
+										<a class="js-like" href=""><span class="mdi mdi-heart-outline"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="cart-el">
+								<div class="cart-badge">new</div>
+								<a href="" class="cart-img embed-responsive">
+									<img class="embed-responsive-item" src="./img/cart-d.png" alt="product">
+								</a>
+								<div class="cart-name text-center">ФУТБОЛКА С ПРИНТОМ COMPASS</div>
+								<div class="cart-price">
+									<div class="cart-pay">$ 19.00</div>
+									<div class="cart-rating">
+										<ul class="rating">
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-half"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="car-by-box">
+									<div class="cart-by-btn">
+										<a class="btn btn-round btn-small btn-outline" href="">В карзину</a>
+									</div>
+									<div class="cart-by-like">
+										<a class="js-like" href=""><span class="mdi mdi-heart-outline"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="cart-el">
+								<div class="cart-badge cart-badge-new">new</div>
+								<a href="" class="cart-img embed-responsive">
+									<img class="embed-responsive-item" src="./img/cart-a.png" alt="product">
+								</a>
+								<div class="cart-name text-center">ФУТБОЛКА С ПРИНТОМ custom</div>
+								<div class="cart-price">
+									<div class="cart-pay">$ 19.00</div>
+									<div class="cart-rating">
+										<ul class="rating">
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-half"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="car-by-box">
+									<div class="cart-by-btn">
+										<a class="btn btn-round btn-small btn-outline" href="">В карзину</a>
+									</div>
+									<div class="cart-by-like">
+										<a class="js-like" href=""><span class="mdi mdi-heart-outline"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="cart-el">
+								<div class="cart-badge cart-badge-sale">sale</div>
+								<a href="" class="cart-img embed-responsive">
+									<img class="embed-responsive-item" src="./img/cart-b.png" alt="product">
+								</a>
+								<div class="cart-name text-center">ФУТБОЛКА С ПРИНТОМ Elliphant</div>
+								<div class="cart-price">
+									<div class="cart-pay cart-pay-sale">$ 15.00 <span class="cart-pay-old"> $ 19.00</span></div>
+									<div class="cart-rating">
+										<ul class="rating">
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-half"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="car-by-box">
+									<div class="cart-by-btn">
+										<a class="btn btn-round btn-small btn-outline" href="">В карзину</a>
+									</div>
+									<div class="cart-by-like">
+										<a class="js-like" href=""><span class="mdi mdi-heart-outline"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="cart-el">
+								<div class="cart-badge">new</div>
+								<a href="" class="cart-img embed-responsive">
+									<img class="embed-responsive-item" src="./img/cart-c.png" alt="product">
+								</a>
+								<div class="cart-name text-center">ФУТБОЛКА С ПРИНТОМ Star Wars</div>
+								<div class="cart-price">
+									<div class="cart-pay">$ 19.00</div>
+									<div class="cart-rating">
+										<ul class="rating">
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-half"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="car-by-box">
+									<div class="cart-by-btn">
+										<a class="btn btn-round btn-small btn-outline" href="">В карзину</a>
+									</div>
+									<div class="cart-by-like">
+										<a class="js-like" href=""><span class="mdi mdi-heart-outline"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb20">
+							<div class="cart-el">
+								<div class="cart-badge">new</div>
+								<a href="" class="cart-img embed-responsive">
+									<img class="embed-responsive-item" src="./img/cart-d.png" alt="product">
+								</a>
+								<div class="cart-name text-center">ФУТБОЛКА С ПРИНТОМ COMPASS</div>
+								<div class="cart-price">
+									<div class="cart-pay">$ 19.00</div>
+									<div class="cart-rating">
+										<ul class="rating">
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-half"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+											<li>
+												<span class="mdi mdi-star-outline"></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="car-by-box">
+									<div class="cart-by-btn">
+										<a class="btn btn-round btn-small btn-outline" href="">В карзину</a>
+									</div>
+									<div class="cart-by-like">
+										<a class="js-like" href=""><span class="mdi mdi-heart-outline"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mb20">
+						<div class="col-12">
+							<nav class="pagination-box" aria-label="Page navigation">
+                <ul class="pagination">
+                  <li class="page-item active"><a href="#">1</a></li>
+                  <li class="page-item"><a href="#">2</a></li>
+                  <li class="page-item"><a href="#">3</a></li>
+                  <li class="page-item"><a href="#">4</a></li>
+                  <li class="page-item"><a href="#">...</a></li>
+                  <li class="page-item"><a href="#">8</a></li>
+                </ul>
+            	</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div class="container-fluid">
+				<div class="footer">
+					<div class="addres"><p>РФ., 123112 г. Москва ул. Пресненская набережная д. 8 стр. 1 этаж 60, помещение 603-М, комната 9</p></div>
+					<div class="contacts">
+						<a class="phone" href="tel:88005512271">8 (800) 551-22-71</a>
+						<div class="social-links">
+							<a href="#"><span class="mdi mdi-vk"></span></a>
+							<a href="#"><span class="mdi mdi-facebook"></span></a>
+							<a href="#"><span class="mdi mdi-twitter"></span></a>
+							<a href="#"><span class="mdi mdi-instagram"></span></a>
+							<a href="#"><span class="mdi mdi-youtube-play"></span></a>
+						</div>
+					</div>
+					<div class="nav-footer">
+						<a href="">Правила пользования сайтом</a>
+						<a href="">Политика конфиденциальности</a>
+						<p>Billions.Capital © 2019</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="./plugins/particles/particles.min.js"></script>
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	<script src="./plugins/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="./plugins/scrollbar/jquery.scrollbar.min.js"></script>
+	<script src="./plugins/select2/select2.min.js"></script>
+	<script src="./plugins/slick/slick.min.js"></script>
+	<script src="./plugins/rateit/rateit.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>
